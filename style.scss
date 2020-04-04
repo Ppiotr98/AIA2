@@ -1,0 +1,38 @@
+body {
+    box-sizing: content-box;
+    .fieldTitle {
+        font-size: 18px;
+        font-weight: bold;
+
+        .name {
+            position: absolute;
+            left: 130px;
+            top: 130px;
+        }
+        .vintage {
+            position: absolute;
+            left: 380px;
+            top: 130px;
+        }
+    }
+
+    .drinkRows {
+        position: relative;
+        top: 30px;
+    }
+}
+
+name {
+    background-color: rgba(105, 109, 107, 0.527);
+    padding: 5px;
+    display: inline-block;
+    width: 233px;
+}
+
+vintage { 
+    background-color: rgba(105, 109, 107, 0.527);
+    padding: 5px;
+    margin-left: 3px;
+    display: inline-block;
+    width: 233px;
+}
